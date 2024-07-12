@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.section {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #696969 0%, #8cc49a 100%);
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 850px;
+    width: 100%;
+}

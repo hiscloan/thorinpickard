@@ -1,11 +1,13 @@
-import styles from './Footer.module.css'
+import { Box, Typography } from '@mui/material'
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <>
-      <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
-      </footer>
-    </>
+    <Box component="footer" sx={{ py: 3, mt: 'auto', textAlign: 'center' }}>
+      <Typography variant="body2" color="text.secondary">
+        © {new Date().getFullYear()} Thorin Pickard. All rights reserved.
+      </Typography>
+    </Box>
   )
 }
+
+export default Footer
